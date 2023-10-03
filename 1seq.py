@@ -11,5 +11,4 @@
 Вывод: [2, 4, 5]
 
 """
-number_of_list_elements = int(input("Введите кол-во элементов списка: "))
-
+number_of_list_elements = int(input("Введите кол-во элементов списка: ")):Жй
