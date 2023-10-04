@@ -1,4 +1,5 @@
 # Модуль 2
+
 """
 Пользователь вводит любые цифры через запятую
 Сохранить цифры в список
@@ -11,8 +12,10 @@
 
 list_elements = input("Введите любые цифры через запятую: ")
 numbers = list_elements.split(',')
+
 result = []
 for num in numbers:
     if numbers.count(num) == 1:
         result.append(num)
+
 print(result)

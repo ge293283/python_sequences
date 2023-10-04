@@ -12,9 +12,11 @@
 
 """
 number_of_list_elements = int(input("Введите кол-во элементов списка: "))
+
 result = []
 for i in range(number_of_list_elements):
     num = int(input("Введите {} элемент: ".format(i+1)))
     result.append(num)
+
 result.sort()
 print(result)
